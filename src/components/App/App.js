@@ -7,7 +7,7 @@ import data from 'data/homedata.json';
 class App extends Component {
   render() {
     const InfosBoxes = data.map((homedata) => {
-      return <InfosBox icon={homedata.icon} />
+      return <InfosBox icon={homedata.icon} title = {homedata.title} desc={homedata.desc} />
     });
     return (
       <div className="App">
