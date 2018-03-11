@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from 'components/Header';
+import Footer from 'components/Footer';
 import InfosBox from 'components/InfosBox';
 import data from 'data/homedata.json';
+import footerdata from 'data/footerdata.json';
 
 class App extends Component {
   render() {
@@ -21,6 +23,7 @@ class App extends Component {
         </div>
         </div>
         </div>
+        <Footer bio={footerdata.bio} />
       </div>
     );
   }
