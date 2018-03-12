@@ -7,7 +7,7 @@ if you use windows , you will need to install  [`git bash`](https://git-scm.com/
 Linux user can use the linux terminal.
 
 1. First of all , I suppose that you have a github account. Use your github account to fork our project [MLHaiti Website](https://giithub.com/MLHaiti/MLHaiti)
-2. After the **fork** , you will have a personal repository like that : https://github.com/**yourgithubusername**/MLHaiti . What you need to do right is to execute this command into your *linux terminal* or *git bash* on windows : ```git clone https://github.com/yourgithubusername/MLHaiti```
+2. After the **fork** , you will have a personal repository like that : https://github.com/**yourgithubusername**/MLHaiti . What you need to do right now is to execute this command into your *linux terminal* or *git bash* on windows : ```git clone https://github.com/yourgithubusername/MLHaiti```
 3. `cd mlhaiti` to enter in the folder.
 4. `npm install` to install all our dependencies
 5. `npm start` to run the project on developpement mode.
