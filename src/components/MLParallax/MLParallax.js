@@ -2,6 +2,7 @@
 import React , { Component } from 'react';
 import background from 'images/background.png';
 import './MLParallax.css';
+import { Link } from 'react-router-dom';
 
 class MLParalax extends Component {
   componentDidMount(){
@@ -18,7 +19,7 @@ class MLParalax extends Component {
           <h5 className="header col s12 light">The greatest community to learn and contribute on AI and machine learnig project in haiti</h5>
         </div>
         <div className="row center">
-          <a href="#" id="download-button" className="btn-large waves-effect waves-light teal lighten-1">Become a member</a>
+          <Link to="/register" id="download-button" className="btn-large waves-effect waves-light teal lighten-1">Become a member</Link>
         </div>
         <br/><br/>
 
