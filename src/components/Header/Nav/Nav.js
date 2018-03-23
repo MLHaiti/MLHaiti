@@ -8,7 +8,7 @@ import logo from 'logo.ico';
 class Nav extends Component {
   render() {
     return (
-        <Navbar brand={<img src={logo} className="App-logo" alt="logo" />} className="black" role="navigation" right>
+        <Navbar to="/" brand={<img src={logo} className="App-logo" alt="logo" />} className="black" role="navigation" right>
             <NavItem href='#'>Getting started</NavItem>
             <NavItem href='#'>About</NavItem>
         </Navbar>
